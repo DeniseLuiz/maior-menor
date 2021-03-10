@@ -17,5 +17,20 @@ int main(int argc, char *argv[]) {
 	scanf("%i", &b);
 	scanf("%i", &c);
 	
+	if (a > b && a >c) {
+		printf(" O primeiro inteiro eh o maior");
+	 }else if ( b > a && b > c){
+	 	printf("O segundo inteiro eh o maior");
+	 }else if (c > a && c > b){
+        printf("O terceiro inteiro eh o maior");
+	 }else if ( a < b && a < c){
+	 	printf("O primeiro inteiro eh o menor");
+     }else if ( b < a && b < c){
+	 	printf("O segundo inteiro eh o menor");
+	 }else if (c < a && c < b){
+        printf("O terceiro inteiro eh o maior");
 	
+      }else {
+      	printf("Comando inváliso");
+	  }
 }
